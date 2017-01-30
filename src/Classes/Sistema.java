@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Sistema {
 
-	private static Scanner scan;
+	private static Scanner scan= new Scanner (System.in);
 	
 	private static Projetos cadastroProjetos[] = new Projetos[50];
 	private static Colaboradores cadastroColaboradores[] = new Colaboradores[50];
